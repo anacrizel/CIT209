@@ -1,5 +1,2 @@
 # CIT209 Integrative Programming and Technologies
-Led Lightshow
-Choose LED Lightshow
-Choose 5 songs--Piezo Speaker
-Distance Measuring Device
+Kiana Crizel R. Tiano BSIT2A
