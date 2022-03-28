@@ -1,2 +1,5 @@
-# Distance-Measuring-Device
-Activity 6 in CIT209 Integrative Programming and Technologies
+# CIT209 Integrative Programming and Technologies
+Led Lightshow
+Choose LED Lightshow
+Choose 5 songs--Piezo Speaker
+Distance Measiring Device
