@@ -1,0 +1,276 @@
+void setup()
+{
+ pinMode(10, OUTPUT);
+ Serial.begin(9600);
+}
+
+void song1()
+{
+  //Jingle bells, jingle bells, jingle all the way
+  tone(10, 329.6, 200); delay(500);//E
+  tone(10, 329.6, 300); delay(500);//E
+  tone(10, 329.6, 400); delay(500);//E
+  tone(10, 329.6, 200); delay(500);//E
+  tone(10, 329.6, 300); delay(500);//E
+  tone(10, 329.6, 400); delay(500);//E
+  tone(10, 329.6, 500); delay(500);//E
+  tone(10, 392,   700); delay(500);//G
+  tone(10, 261.6, 400); delay(500);//C
+  tone(10, 293.67,300); delay(500);//D
+  tone(10, 329.6, 500); delay(500);//E
+  //oh what fun it is to ride
+  tone(10, 349.23, 200); delay(500);//F
+  tone(10, 349.23, 300); delay(500);//F
+  tone(10, 349.23, 500); delay(500);//F
+  tone(10, 349.23, 200); delay(500);//F
+  tone(10, 349.23, 300); delay(500);//F
+  tone(10, 329.6, 200); delay(500);//E
+  tone(10, 329.6, 300); delay(500);//E
+  tone(10, 329.6, 500); delay(500);//E
+  tone(10, 329.6, 200); delay(500);//E
+   //in a one horse open slay
+  tone(10, 329.6, 200); delay(500);//E
+  tone(10, 293.67,300); delay(500);//D
+  tone(10, 293.67,300); delay(500);//D
+  tone(10, 329.6, 200); delay(500);//E
+  tone(10, 293.67,600); delay(500);//D
+  tone(10, 392,   700); delay(500);//G
+  
+  //Jingle bells, jingle bells, jingle all the way
+  tone(10, 329.6, 200); delay(500);//E
+  tone(10, 329.6, 300); delay(500);//E
+  tone(10, 329.6, 400); delay(500);//E
+  tone(10, 329.6, 200); delay(500);//E
+  tone(10, 329.6, 300); delay(500);//E
+  tone(10, 329.6, 400); delay(500);//E
+  tone(10, 329.6, 500); delay(500);//E
+  tone(10, 392,   700); delay(500);//G
+  tone(10, 261.6, 400); delay(500);//C
+  tone(10, 293.67,300); delay(500);//D
+  tone(10, 329.6, 500); delay(500);//E
+  
+  //oh what fun it is to ride
+  tone(10, 349.23, 200); delay(500);//F
+  tone(10, 349.23, 300); delay(500);//F
+  tone(10, 349.23, 500); delay(500);//F
+  tone(10, 349.23, 200); delay(500);//F
+  tone(10, 349.23, 300); delay(500);//F
+  tone(10, 329.6, 200); delay(500);//E
+  tone(10, 329.6, 300); delay(500);//E
+  tone(10, 329.6, 500); delay(500);//E
+  tone(10, 329.6, 200); delay(500);//E
+  
+ 
+  //in a one horse open slay
+  tone(10, 329.6, 300); delay(500);//E
+  tone(10, 293.67,400); delay(500);//D
+  tone(10, 293.67,400); delay(500);//D
+  tone(10, 329.6, 500); delay(500);//E
+  tone(10, 293.67,600); delay(500);//D
+  tone(10, 392,   700); delay(500);//G
+}
+
+void song2()
+{
+  //twinkle, twinkle, little star
+  tone(10, 329.6, 200); delay(500);//E
+  tone(10, 329.6, 200); delay(500);//E
+  tone(10, 493.88, 200); delay(500);//B
+  tone(10, 493.88, 200); delay(500);//B
+  tone(10, 554.37, 200); delay(500);//C#
+  tone(10, 554.37, 200); delay(500);//C#
+  tone(10, 493.88, 400); delay(500);//B
+  
+  //how I wonder what you are
+  tone(10, 440.0, 200); delay(500);//A
+  tone(10, 440.0, 200); delay(500);//A
+  tone(10, 415.30, 200); delay(500);//G#
+  tone(10, 415.30, 200); delay(500);//G#
+  tone(10, 369.99, 200); delay(500);//F#
+  tone(10, 369.99, 200); delay(500);//F#
+  tone(10, 329.6, 400); delay(500);//E
+  
+  //up above the world so high
+  tone(10, 493.88, 200); delay(500);//B
+  tone(10, 493.88, 200); delay(500);//B
+  tone(10, 440.0, 200); delay(500);//A
+  tone(10, 440.0, 200); delay(500);//A
+  tone(10, 415.30, 200); delay(500);//G#
+  tone(10, 415.30, 200); delay(500);//G#
+  tone(10, 369.99, 400); delay(500);//F#
+  
+  //like a diamond in the sky
+  tone(10, 493.88, 200); delay(500);//B
+  tone(10, 493.88, 200); delay(500);//B
+  tone(10, 440.0, 200); delay(500);//A
+  tone(10, 440.0, 200); delay(500);//A
+  tone(10, 415.30, 200); delay(500);//G#
+  tone(10, 415.30, 200); delay(500);//G#
+  tone(10, 369.99, 400); delay(500);//F#
+  
+  //twinkle, twinkle, little star
+  tone(10, 329.6, 200); delay(500);//E
+  tone(10, 329.6, 200); delay(500);//E
+  tone(10, 493.88, 200); delay(500);//B
+  tone(10, 493.88, 200); delay(500);//B
+  tone(10, 554.37, 200); delay(500);//C#
+  tone(10, 554.37, 200); delay(500);//C#
+  tone(10, 493.88, 200); delay(500);//B
+  
+  //how I wonder what you are
+  tone(10, 440.0, 200); delay(500);//A
+  tone(10, 440.0, 200); delay(500);//A
+  tone(10, 415.30, 200); delay(500);//G#
+  tone(10, 415.30, 200); delay(500);//G#
+  tone(10, 369.99, 200); delay(500);//F#
+  tone(10, 369.99, 200); delay(500);//F#
+  tone(10, 329.6, 400); delay(500);//E
+  
+}
+
+void song3()
+{
+  //happy birthday to you
+  tone(10, 587.33, 100); delay(500);//D/
+  tone(10, 587.33, 100); delay(500);//D/
+  tone(10, 659.3, 200); delay(500);//E/
+  tone(10, 587.33, 200); delay(500);//D/
+  tone(10, 784.0, 300); delay(500);//G/
+  tone(10, 740.0, 400); delay(500);//F#
+  
+  //happy birthday to you
+  tone(10, 587.33, 100); delay(500);//D/
+  tone(10, 587.33, 100); delay(500);//D/
+  tone(10, 659.3, 200); delay(500);//E/
+  tone(10, 587.33, 200); delay(500);//D/
+  tone(10, 784.0, 300); delay(500);//G/
+  tone(10, 740.0, 400); delay(500);//F#
+  
+  //happy birthday
+  tone(10, 587.33, 100); delay(500);//D/
+  tone(10, 587.33, 200); delay(500);//D/
+  tone(10, 1006.5, 300); delay(500);//C/
+  tone(10, 880.0, 400); delay(500);//A/
+  
+  //happy birthday
+  tone(10, 784.0, 100); delay(500);//G/
+  tone(10, 784.0, 200); delay(500);//G/
+  tone(10, 740.0, 300); delay(500);//F#
+  tone(10, 659.3, 400); delay(500);//E/
+  
+  //happy birthday to you
+  tone(10, 1006.5, 100); delay(500);//C/
+  tone(10, 1006.5, 100); delay(500);//C/
+  tone(10, 987.8, 200); delay(500);//B/
+  tone(10, 784.0, 200); delay(500);//G/
+  tone(10, 880.0, 300); delay(500);//A/
+  tone(10, 784.0, 400); delay(500);//G/
+  
+}
+ 
+void song4()
+{
+  //mary had a little lab, little lamb, little lamb
+  tone(10, 329.6, 200); delay(500);//E
+  tone(10, 293.67,200); delay(500);//D
+  tone(10, 261.6, 200); delay(500);//C
+  tone(10, 293.67,200); delay(500);//D
+  tone(10, 329.6, 200); delay(500);//E
+  tone(10, 329.6, 200); delay(500);//E
+  tone(10, 329.6, 200); delay(500);//E
+  tone(10, 293.67,200); delay(500);//D
+  tone(10, 293.67,200); delay(500);//D
+  tone(10, 293.67,200); delay(500);//D
+  tone(10, 329.6, 200); delay(500);//E
+  tone(10, 392,   200); delay(500);//G
+  tone(10, 392,   200); delay(500);//G
+  
+  //mary had a little lamb
+  tone(10, 329.6,150); delay(500);//E
+  tone(10, 293.67,150); delay(500);//D
+  tone(10, 261.6, 200); delay(500);//C
+  tone(10, 293.67,200); delay(500);//D
+  tone(10, 329.6, 200); delay(500);//E
+  tone(10, 329.6, 200); delay(500);//E
+  tone(10, 329.6, 200); delay(500);//E
+  
+  //whose fleece was white as snow
+  tone(10, 329.6, 200); delay(500);//E
+  tone(10, 293.67,200); delay(500);//D
+  tone(10, 293.67,200); delay(500);//D
+  tone(10, 329.6,150); delay(500);//E
+  tone(10, 293.67,150); delay(500);//D
+  tone(10, 261.6, 400); delay(500);//C
+}
+void song5()
+{
+  //ring around the rosie
+  tone(10, 392,   100); delay(500);//G
+  tone(10, 392,   100); delay(500);//G
+  tone(10, 329.6, 150); delay(500);//E
+  tone(10, 440.0, 100); delay(500);//A
+  tone(10, 392,   150); delay(500);//G
+  tone(10, 329.6, 300); delay(500);//E
+  
+  //a pocket full of posies
+  tone(10, 349.23, 100); delay(500);//F
+  tone(10, 392,   100); delay(500);//G
+  tone(10, 392,   100); delay(500);//G
+  tone(10, 329.6,150); delay(500);//E
+  tone(10, 440.0, 100); delay(500);//A
+  tone(10, 392,   150); delay(500);//G
+  tone(10, 329.6,200); delay(500);//E
+  
+  //ashes, ashes
+  tone(10, 392,   200); delay(500);//G
+  tone(10, 329.6,150); delay(500);//E
+  tone(10, 392,   200); delay(500);//G
+  tone(10, 329.6,150); delay(500);//E
+  
+  //they all fall down
+  tone(10, 329.6,100); delay(500);//E
+  tone(10, 392,   150); delay(500);//G
+  tone(10, 392,   200); delay(500);//G
+  tone(10, 261.6, 400); delay(500);//C
+}
+
+//MAIN PROGRAM
+void loop() {
+
+
+  Serial.println("Song Selection:");    
+  Serial.println("		[1] Jingle Bells");
+  Serial.println("		[2] Twinkle, Twinkle, Little Star");
+  Serial.println("		[3] Happy Birthday Song");
+  Serial.println("		[4] Mary had a Little Lamb");
+  Serial.println("		[5] Ring Around the Rosie");
+ 
+while (Serial.available()==0) {}
+  
+int userinput = Serial.parseInt();
+
+switch (userinput) {
+case 1:
+song1();
+break;
+
+case 2:
+song2();
+break;
+  
+case 3:
+song3();
+break;
+
+case 4:
+song4();
+break;
+  
+case 5:
+song5();
+break;
+
+default:
+Serial.println("Selected Feature Does Not Exist");
+}
+}
