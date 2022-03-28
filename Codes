@@ -1,0 +1,64 @@
+
+#include <LiquidCrystal.h>
+
+LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
+
+int buzzer=13;
+const int red=10;
+const int yellow=7;
+int green=6;
+int trigPin = 9;
+int echoPin = 8;
+long duration;
+int distance;
+
+void setup() {
+  lcd.begin(16, 2);
+  pinMode(trigPin, OUTPUT);
+  pinMode(echoPin, INPUT); 
+  pinMode(13, OUTPUT);
+}
+
+void loop() {
+
+  digitalWrite(trigPin, LOW);
+  delayMicroseconds(2);
+  digitalWrite(trigPin, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trigPin, LOW);
+ 
+  duration = pulseIn(echoPin, HIGH);
+
+  //speed of sound = 0.034
+  distance= duration*0.034/2;
+  
+  if(distance<10){
+    digitalWrite(red,HIGH);
+    digitalWrite(green,LOW);
+    digitalWrite(yellow,LOW);
+    digitalWrite(buzzer,HIGH);
+  }
+  
+  else if (distance>10 && distance<21){
+    digitalWrite(red,LOW);
+    digitalWrite(green,LOW);
+    digitalWrite(yellow,HIGH); 
+    digitalWrite(buzzer,LOW);
+  }
+  
+  else{ 
+    digitalWrite(red,LOW);
+    digitalWrite(green,HIGH);
+    digitalWrite(yellow,LOW); 
+    digitalWrite(buzzer,LOW);
+  }
+  
+  lcd.print("Distance: ");
+  lcd.print(distance);
+  lcd.print("cm ");
+  delay(1500);
+  lcd.clear(); 
+  
+  
+}
+ 
